@@ -1,3 +1,10 @@
+#! /usr/bin/env node
+
+if(!process.argv[2]){
+    console.warn('jspect needs a target! eg: "jspect ./package.json"');
+    return;
+}
+
 var program = require('commander'),
     path = require('path'),
     packageJson = require('./package.json'),
