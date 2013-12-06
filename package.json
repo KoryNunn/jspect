@@ -11,6 +11,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "BSD"
+  "author": "Kory Nunn",
+  "license": "BSD",
+  "preferGlobal": "true",
+  "bin": {
+    "browserifyer": "index.js"
+  }
 }
