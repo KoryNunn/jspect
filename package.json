@@ -14,7 +14,5 @@
   "author": "Kory Nunn",
   "license": "BSD",
   "preferGlobal": "true",
-  "bin": {
-    "jspect": "jspect.js"
-  }
+  "bin": "./jspect.js"
 }
