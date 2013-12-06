@@ -1,7 +1,8 @@
 var program = require('commander'),
+    path = require('path'),
     packageJson = require('./package.json'),
     Gedi = require('gedi'),
-    object = require(process.argv[2]),
+    object = require(path.resolve(process.argv[2])),
     gedi = new Gedi(object);
 
 program
@@ -10,8 +11,9 @@ program
   .option('-e, --expression [expression]', 'Use a gedi/gel expression.')
   .parse(process.argv);
 
-if(program.property){
-    var gedi = new Gedi(object);
+if(program.expression){
+    console.log(gedi.get(program.expression));
+}else if(program.property){
     console.log(gedi.get(gedi.paths.create(program.property.split('.'))));
 }else{
     console.log(object);
