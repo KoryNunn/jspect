@@ -1,0 +1,16 @@
+{
+  "name": "jspect",
+  "version": "0.0.0",
+  "description": "",
+  "main": "jspect.js",
+  "dependencies": {
+    "commander": "~2.1.0",
+    "gedi": "~0.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD"
+}
