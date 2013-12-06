@@ -1,0 +1,1182 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'up',
+1 verbose cli   'jspect',
+1 verbose cli   '-g' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'jspect', '*' ]
+6 verbose cache add name="jspect" spec="*" args=["jspect","*"]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '*',
+7 verbose parsed url   path: '*',
+7 verbose parsed url   href: '*' }
+8 verbose addNamed [ 'jspect', '*' ]
+9 verbose addNamed [ null, '*' ]
+10 silly lockFile 23b8bdcc-jspect jspect@*
+11 verbose lock jspect@* C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\23b8bdcc-jspect.lock
+12 silly addNameRange { name: 'jspect', range: '*', hasData: false }
+13 verbose url raw jspect
+14 verbose url resolving [ 'https://registry.npmjs.org/', './jspect' ]
+15 verbose url resolved https://registry.npmjs.org/jspect
+16 info trying registry request attempt 1 at 23:17:02
+17 http GET https://registry.npmjs.org/jspect
+18 http 200 https://registry.npmjs.org/jspect
+19 silly registry.get cb [ 200,
+19 silly registry.get   { vary: 'Accept',
+19 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+19 silly registry.get     etag: '"83Z3LS8HKD3Y28SO3BJKV7P8T"',
+19 silly registry.get     date: 'Fri, 06 Dec 2013 13:17:04 GMT',
+19 silly registry.get     'content-type': 'application/json',
+19 silly registry.get     'content-length': '1942' } ]
+20 silly addNameRange number 2 { name: 'jspect', range: '*', hasData: true }
+21 silly addNameRange versions [ 'jspect', [ '0.0.1', '0.0.2' ] ]
+22 verbose addNamed [ 'jspect', '0.0.2' ]
+23 verbose addNamed [ '0.0.2', '0.0.2' ]
+24 silly lockFile 6fad3bd0-jspect-0-0-2 jspect@0.0.2
+25 verbose lock jspect@0.0.2 C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\6fad3bd0-jspect-0-0-2.lock
+26 silly lockFile 6fad3bd0-jspect-0-0-2 jspect@0.0.2
+27 silly lockFile 6fad3bd0-jspect-0-0-2 jspect@0.0.2
+28 silly lockFile 23b8bdcc-jspect jspect@*
+29 silly lockFile 23b8bdcc-jspect jspect@*
+30 info outdated updating [ [ 'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm',
+30 info outdated     'jspect',
+30 info outdated     '0.0.1',
+30 info outdated     '0.0.2',
+30 info outdated     '*' ] ]
+31 verbose install where,what [ 'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm',
+31 verbose install   [ 'jspect@0.0.2' ] ]
+32 verbose cache add [ 'jspect@0.0.2', null ]
+33 verbose cache add name=undefined spec="jspect@0.0.2" args=["jspect@0.0.2",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'jspect@0.0.2',
+34 verbose parsed url   path: 'jspect@0.0.2',
+34 verbose parsed url   href: 'jspect@0.0.2' }
+35 verbose cache add name="jspect" spec="0.0.2" args=["jspect","0.0.2"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '0.0.2',
+36 verbose parsed url   path: '0.0.2',
+36 verbose parsed url   href: '0.0.2' }
+37 verbose addNamed [ 'jspect', '0.0.2' ]
+38 verbose addNamed [ '0.0.2', '0.0.2' ]
+39 silly lockFile 6fad3bd0-jspect-0-0-2 jspect@0.0.2
+40 verbose lock jspect@0.0.2 C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\6fad3bd0-jspect-0-0-2.lock
+41 verbose url raw jspect/0.0.2
+42 verbose url resolving [ 'https://registry.npmjs.org/', './jspect/0.0.2' ]
+43 verbose url resolved https://registry.npmjs.org/jspect/0.0.2
+44 info trying registry request attempt 1 at 23:17:05
+45 http GET https://registry.npmjs.org/jspect/0.0.2
+46 http 200 https://registry.npmjs.org/jspect/0.0.2
+47 silly registry.get cb [ 200,
+47 silly registry.get   { vary: 'Accept',
+47 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+47 silly registry.get     etag: '"83Z3LS8HKD3Y28SO3BJKV7P8T"',
+47 silly registry.get     date: 'Fri, 06 Dec 2013 13:17:07 GMT',
+47 silly registry.get     'content-type': 'application/json',
+47 silly registry.get     'content-length': '676' } ]
+48 silly lockFile a263d259-pmjs-org-jspect-jspect-0-0-2-tgz https://registry.npmjs.org/jspect/-/jspect-0.0.2.tgz
+49 verbose lock https://registry.npmjs.org/jspect/-/jspect-0.0.2.tgz C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\a263d259-pmjs-org-jspect-jspect-0-0-2-tgz.lock
+50 verbose addRemoteTarball [ 'https://registry.npmjs.org/jspect/-/jspect-0.0.2.tgz',
+50 verbose addRemoteTarball   '6569f6a1f3e6283a5fb53568ce1812228b275bb8' ]
+51 info retry fetch attempt 1 at 23:17:07
+52 verbose fetch to= C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\tmp.tgz
+53 http GET https://registry.npmjs.org/jspect/-/jspect-0.0.2.tgz
+54 http 200 https://registry.npmjs.org/jspect/-/jspect-0.0.2.tgz
+55 verbose tar unpack C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\tmp.tgz
+56 silly lockFile cf6c4f47-27745-0-7099410074297339-package tar://C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\package
+57 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\package C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\cf6c4f47-27745-0-7099410074297339-package.lock
+58 silly lockFile 76c3ab02-27745-0-7099410074297339-tmp-tgz tar://C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\tmp.tgz
+59 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\tmp.tgz C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\76c3ab02-27745-0-7099410074297339-tmp-tgz.lock
+60 silly gunzTarPerm modes [ '755', '644' ]
+61 silly gunzTarPerm extractEntry package.json
+62 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+63 silly gunzTarPerm extractEntry .npmignore
+64 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+65 silly gunzTarPerm extractEntry jspect.js
+66 silly gunzTarPerm modified mode [ 'jspect.js', 438, 420 ]
+67 silly lockFile cf6c4f47-27745-0-7099410074297339-package tar://C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\package
+68 silly lockFile cf6c4f47-27745-0-7099410074297339-package tar://C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\package
+69 silly lockFile 76c3ab02-27745-0-7099410074297339-tmp-tgz tar://C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\tmp.tgz
+70 silly lockFile 76c3ab02-27745-0-7099410074297339-tmp-tgz tar://C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\tmp.tgz
+71 verbose tar pack [ 'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm-cache\\jspect\\0.0.2\\package.tgz',
+71 verbose tar pack   'C:\\Users\\Kory.korys-laptop\\AppData\\Local\\Temp\\npm-22420\\1386335827745-0.7099410074297339\\package' ]
+72 verbose tarball C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+73 verbose folder C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\package
+74 silly lockFile cf6c4f47-27745-0-7099410074297339-package tar://C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\package
+75 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\package C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\cf6c4f47-27745-0-7099410074297339-package.lock
+76 silly lockFile 18295eab-m-cache-jspect-0-0-2-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+77 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\18295eab-m-cache-jspect-0-0-2-package-tgz.lock
+78 silly lockFile cf6c4f47-27745-0-7099410074297339-package tar://C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\package
+79 silly lockFile cf6c4f47-27745-0-7099410074297339-package tar://C:\Users\Kory.korys-laptop\AppData\Local\Temp\npm-22420\1386335827745-0.7099410074297339\package
+80 silly lockFile 18295eab-m-cache-jspect-0-0-2-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+81 silly lockFile 18295eab-m-cache-jspect-0-0-2-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+82 silly lockFile 44c00c01-g-npm-cache-jspect-0-0-2-package C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package
+83 verbose lock C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\44c00c01-g-npm-cache-jspect-0-0-2-package.lock
+84 silly lockFile 44c00c01-g-npm-cache-jspect-0-0-2-package C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package
+85 silly lockFile 44c00c01-g-npm-cache-jspect-0-0-2-package C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package
+86 verbose tar unpack C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+87 silly lockFile cb810e3b-g-npm-cache-jspect-0-0-2-package tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package
+88 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\cb810e3b-g-npm-cache-jspect-0-0-2-package.lock
+89 silly lockFile 18295eab-m-cache-jspect-0-0-2-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+90 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\18295eab-m-cache-jspect-0-0-2-package-tgz.lock
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 silly gunzTarPerm extractEntry package.json
+93 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+94 silly gunzTarPerm extractEntry .npmignore
+95 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+96 silly gunzTarPerm extractEntry jspect.js
+97 silly gunzTarPerm modified mode [ 'jspect.js', 438, 420 ]
+98 silly lockFile cb810e3b-g-npm-cache-jspect-0-0-2-package tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package
+99 silly lockFile cb810e3b-g-npm-cache-jspect-0-0-2-package tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package
+100 silly lockFile 18295eab-m-cache-jspect-0-0-2-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+101 silly lockFile 18295eab-m-cache-jspect-0-0-2-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+102 verbose chmod C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz 644
+103 silly chown skipping for windows C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+104 silly lockFile a263d259-pmjs-org-jspect-jspect-0-0-2-tgz https://registry.npmjs.org/jspect/-/jspect-0.0.2.tgz
+105 silly lockFile a263d259-pmjs-org-jspect-jspect-0-0-2-tgz https://registry.npmjs.org/jspect/-/jspect-0.0.2.tgz
+106 silly lockFile 6fad3bd0-jspect-0-0-2 jspect@0.0.2
+107 silly lockFile 6fad3bd0-jspect-0-0-2 jspect@0.0.2
+108 silly resolved [ { name: 'jspect',
+108 silly resolved     version: '0.0.2',
+108 silly resolved     description: '',
+108 silly resolved     main: 'jspect.js',
+108 silly resolved     dependencies: { commander: '~2.1.0', gedi: '~0.12.1' },
+108 silly resolved     devDependencies: {},
+108 silly resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+108 silly resolved     author: { name: 'Kory Nunn' },
+108 silly resolved     license: 'BSD',
+108 silly resolved     preferGlobal: 'true',
+108 silly resolved     bin: { browserifyer: 'index.js' },
+108 silly resolved     readme: 'ERROR: No README data found!',
+108 silly resolved     _id: 'jspect@0.0.2',
+108 silly resolved     _from: 'jspect@0.0.2',
+108 silly resolved     dist: { shasum: '6306bd3e04e23c2bc39efa28830e8f24daad3342' },
+108 silly resolved     _resolved: 'https://registry.npmjs.org/jspect/-/jspect-0.0.2.tgz' } ]
+109 info install jspect@0.0.2 into C:\Users\Kory.korys-laptop\AppData\Roaming\npm
+110 info installOne jspect@0.0.2
+111 info C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect unbuild
+112 info preuninstall jspect@0.0.1
+113 info uninstall jspect@0.0.1
+114 verbose true,C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules,C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules unbuild jspect@0.0.1
+115 info postuninstall jspect@0.0.1
+116 verbose tar unpack C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+117 silly lockFile 24dfffd0--Roaming-npm-node-modules-jspect tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect
+118 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\24dfffd0--Roaming-npm-node-modules-jspect.lock
+119 silly lockFile 18295eab-m-cache-jspect-0-0-2-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+120 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\18295eab-m-cache-jspect-0-0-2-package-tgz.lock
+121 silly gunzTarPerm modes [ '755', '644' ]
+122 silly gunzTarPerm extractEntry package.json
+123 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+124 silly gunzTarPerm extractEntry .npmignore
+125 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+126 silly gunzTarPerm extractEntry jspect.js
+127 silly gunzTarPerm modified mode [ 'jspect.js', 438, 420 ]
+128 silly lockFile 24dfffd0--Roaming-npm-node-modules-jspect tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect
+129 silly lockFile 24dfffd0--Roaming-npm-node-modules-jspect tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect
+130 silly lockFile 18295eab-m-cache-jspect-0-0-2-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+131 silly lockFile 18295eab-m-cache-jspect-0-0-2-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\jspect\0.0.2\package.tgz
+132 info preinstall jspect@0.0.2
+133 verbose readDependencies using package.json deps
+134 verbose readDependencies using package.json deps
+135 verbose cache add [ 'commander@~2.1.0', null ]
+136 verbose cache add name=undefined spec="commander@~2.1.0" args=["commander@~2.1.0",null]
+137 verbose parsed url { protocol: null,
+137 verbose parsed url   slashes: null,
+137 verbose parsed url   auth: null,
+137 verbose parsed url   host: null,
+137 verbose parsed url   port: null,
+137 verbose parsed url   hostname: null,
+137 verbose parsed url   hash: null,
+137 verbose parsed url   search: null,
+137 verbose parsed url   query: null,
+137 verbose parsed url   pathname: 'commander@~2.1.0',
+137 verbose parsed url   path: 'commander@~2.1.0',
+137 verbose parsed url   href: 'commander@~2.1.0' }
+138 verbose cache add name="commander" spec="~2.1.0" args=["commander","~2.1.0"]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: '~2.1.0',
+139 verbose parsed url   path: '~2.1.0',
+139 verbose parsed url   href: '~2.1.0' }
+140 verbose addNamed [ 'commander', '~2.1.0' ]
+141 verbose addNamed [ null, '>=2.1.0-0 <2.2.0-0' ]
+142 silly lockFile 819b1264-commander-2-1-0 commander@~2.1.0
+143 verbose lock commander@~2.1.0 C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\819b1264-commander-2-1-0.lock
+144 verbose cache add [ 'gedi@~0.12.1', null ]
+145 verbose cache add name=undefined spec="gedi@~0.12.1" args=["gedi@~0.12.1",null]
+146 verbose parsed url { protocol: null,
+146 verbose parsed url   slashes: null,
+146 verbose parsed url   auth: null,
+146 verbose parsed url   host: null,
+146 verbose parsed url   port: null,
+146 verbose parsed url   hostname: null,
+146 verbose parsed url   hash: null,
+146 verbose parsed url   search: null,
+146 verbose parsed url   query: null,
+146 verbose parsed url   pathname: 'gedi@~0.12.1',
+146 verbose parsed url   path: 'gedi@~0.12.1',
+146 verbose parsed url   href: 'gedi@~0.12.1' }
+147 verbose cache add name="gedi" spec="~0.12.1" args=["gedi","~0.12.1"]
+148 verbose parsed url { protocol: null,
+148 verbose parsed url   slashes: null,
+148 verbose parsed url   auth: null,
+148 verbose parsed url   host: null,
+148 verbose parsed url   port: null,
+148 verbose parsed url   hostname: null,
+148 verbose parsed url   hash: null,
+148 verbose parsed url   search: null,
+148 verbose parsed url   query: null,
+148 verbose parsed url   pathname: '~0.12.1',
+148 verbose parsed url   path: '~0.12.1',
+148 verbose parsed url   href: '~0.12.1' }
+149 verbose addNamed [ 'gedi', '~0.12.1' ]
+150 verbose addNamed [ null, '>=0.12.1-0 <0.13.0-0' ]
+151 silly lockFile 9b2af777-gedi-0-12-1 gedi@~0.12.1
+152 verbose lock gedi@~0.12.1 C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\9b2af777-gedi-0-12-1.lock
+153 silly addNameRange { name: 'commander',
+153 silly addNameRange   range: '>=2.1.0-0 <2.2.0-0',
+153 silly addNameRange   hasData: false }
+154 silly addNameRange { name: 'gedi', range: '>=0.12.1-0 <0.13.0-0', hasData: false }
+155 verbose url raw commander
+156 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+157 verbose url resolved https://registry.npmjs.org/commander
+158 info trying registry request attempt 1 at 23:17:11
+159 verbose etag "406HA9XCN7UCJBXE4BDN5XK26"
+160 http GET https://registry.npmjs.org/commander
+161 verbose url raw gedi
+162 verbose url resolving [ 'https://registry.npmjs.org/', './gedi' ]
+163 verbose url resolved https://registry.npmjs.org/gedi
+164 info trying registry request attempt 1 at 23:17:11
+165 verbose etag "7KQCWV4YHOQR46GDA129GQBA6"
+166 http GET https://registry.npmjs.org/gedi
+167 http 304 https://registry.npmjs.org/commander
+168 silly registry.get cb [ 304,
+168 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+168 silly registry.get     etag: '"406HA9XCN7UCJBXE4BDN5XK26"',
+168 silly registry.get     date: 'Fri, 06 Dec 2013 13:17:13 GMT',
+168 silly registry.get     'content-length': '0' } ]
+169 verbose etag commander from cache
+170 http 304 https://registry.npmjs.org/gedi
+171 silly registry.get cb [ 304,
+171 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+171 silly registry.get     etag: '"7KQCWV4YHOQR46GDA129GQBA6"',
+171 silly registry.get     date: 'Fri, 06 Dec 2013 13:17:13 GMT',
+171 silly registry.get     'content-length': '0' } ]
+172 verbose etag gedi from cache
+173 silly addNameRange number 2 { name: 'commander', range: '>=2.1.0-0 <2.2.0-0', hasData: true }
+174 silly addNameRange versions [ 'commander',
+174 silly addNameRange   [ '0.0.1',
+174 silly addNameRange     '0.0.3',
+174 silly addNameRange     '0.0.4',
+174 silly addNameRange     '0.0.5',
+174 silly addNameRange     '0.1.0',
+174 silly addNameRange     '0.2.0',
+174 silly addNameRange     '0.2.1',
+174 silly addNameRange     '0.3.0',
+174 silly addNameRange     '0.3.1',
+174 silly addNameRange     '0.3.2',
+174 silly addNameRange     '0.3.3',
+174 silly addNameRange     '0.4.0',
+174 silly addNameRange     '0.4.1',
+174 silly addNameRange     '0.4.2',
+174 silly addNameRange     '0.4.3',
+174 silly addNameRange     '0.5.0',
+174 silly addNameRange     '0.5.1',
+174 silly addNameRange     '0.6.0',
+174 silly addNameRange     '0.6.1',
+174 silly addNameRange     '0.5.2',
+174 silly addNameRange     '1.0.0',
+174 silly addNameRange     '1.0.1',
+174 silly addNameRange     '1.0.2',
+174 silly addNameRange     '1.0.3',
+174 silly addNameRange     '1.0.4',
+174 silly addNameRange     '1.0.5',
+174 silly addNameRange     '1.1.0',
+174 silly addNameRange     '1.1.1',
+174 silly addNameRange     '1.2.0',
+174 silly addNameRange     '1.3.0',
+174 silly addNameRange     '1.3.1',
+174 silly addNameRange     '1.3.2',
+174 silly addNameRange     '2.0.0',
+174 silly addNameRange     '2.1.0' ] ]
+175 verbose addNamed [ 'commander', '2.1.0' ]
+176 verbose addNamed [ '2.1.0', '2.1.0' ]
+177 silly lockFile 43e0ae83-commander-2-1-0 commander@2.1.0
+178 verbose lock commander@2.1.0 C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\43e0ae83-commander-2-1-0.lock
+179 silly addNameRange number 2 { name: 'gedi', range: '>=0.12.1-0 <0.13.0-0', hasData: true }
+180 silly addNameRange versions [ 'gedi',
+180 silly addNameRange   [ '0.1.0',
+180 silly addNameRange     '0.1.1',
+180 silly addNameRange     '0.1.2',
+180 silly addNameRange     '0.1.3',
+180 silly addNameRange     '0.1.4',
+180 silly addNameRange     '0.1.5',
+180 silly addNameRange     '0.2.0',
+180 silly addNameRange     '0.2.1',
+180 silly addNameRange     '0.2.2',
+180 silly addNameRange     '0.2.3',
+180 silly addNameRange     '0.2.4',
+180 silly addNameRange     '0.2.5',
+180 silly addNameRange     '0.2.6',
+180 silly addNameRange     '0.2.7',
+180 silly addNameRange     '0.3.0',
+180 silly addNameRange     '0.3.1',
+180 silly addNameRange     '0.3.2',
+180 silly addNameRange     '0.4.0',
+180 silly addNameRange     '0.5.0',
+180 silly addNameRange     '0.5.1',
+180 silly addNameRange     '0.5.2',
+180 silly addNameRange     '0.6.0',
+180 silly addNameRange     '0.6.1',
+180 silly addNameRange     '0.6.2',
+180 silly addNameRange     '0.7.0',
+180 silly addNameRange     '0.7.1',
+180 silly addNameRange     '0.7.2',
+180 silly addNameRange     '0.7.3',
+180 silly addNameRange     '0.7.4',
+180 silly addNameRange     '0.7.5',
+180 silly addNameRange     '0.8.0',
+180 silly addNameRange     '0.8.1',
+180 silly addNameRange     '0.9.0',
+180 silly addNameRange     '0.9.1',
+180 silly addNameRange     '0.9.2',
+180 silly addNameRange     '0.9.3',
+180 silly addNameRange     '0.9.4',
+180 silly addNameRange     '0.9.5',
+180 silly addNameRange     '0.9.6',
+180 silly addNameRange     '0.9.7',
+180 silly addNameRange     '0.9.8',
+180 silly addNameRange     '0.9.9',
+180 silly addNameRange     '0.10.0',
+180 silly addNameRange     '0.10.1',
+180 silly addNameRange     '0.11.0',
+180 silly addNameRange     '0.12.0',
+180 silly addNameRange     '0.12.1' ] ]
+181 verbose addNamed [ 'gedi', '0.12.1' ]
+182 verbose addNamed [ '0.12.1', '0.12.1' ]
+183 silly lockFile 828498f5-gedi-0-12-1 gedi@0.12.1
+184 verbose lock gedi@0.12.1 C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\828498f5-gedi-0-12-1.lock
+185 silly lockFile 43e0ae83-commander-2-1-0 commander@2.1.0
+186 silly lockFile 43e0ae83-commander-2-1-0 commander@2.1.0
+187 silly lockFile 828498f5-gedi-0-12-1 gedi@0.12.1
+188 silly lockFile 828498f5-gedi-0-12-1 gedi@0.12.1
+189 silly lockFile 819b1264-commander-2-1-0 commander@~2.1.0
+190 silly lockFile 819b1264-commander-2-1-0 commander@~2.1.0
+191 silly lockFile 9b2af777-gedi-0-12-1 gedi@~0.12.1
+192 silly lockFile 9b2af777-gedi-0-12-1 gedi@~0.12.1
+193 silly resolved [ { name: 'commander',
+193 silly resolved     version: '2.1.0',
+193 silly resolved     description: 'the complete solution for node.js command-line programs',
+193 silly resolved     keywords: [ 'command', 'option', 'parser', 'prompt', 'stdin' ],
+193 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+193 silly resolved     repository:
+193 silly resolved      { type: 'git',
+193 silly resolved        url: 'https://github.com/visionmedia/commander.js.git' },
+193 silly resolved     devDependencies: { should: '>= 0.0.1' },
+193 silly resolved     scripts: { test: 'make test' },
+193 silly resolved     main: 'index',
+193 silly resolved     engines: { node: '>= 0.6.x' },
+193 silly resolved     files: [ 'index.js' ],
+193 silly resolved     readme: '# Commander.js\n\n  The complete solution for [node.js](http://nodejs.org) command-line interfaces, inspired by Ruby\'s [commander](https://github.com/visionmedia/commander).\n\n [![Build Status](https://secure.travis-ci.org/visionmedia/commander.js.png)](http://travis-ci.org/visionmedia/commander.js)\n\n## Installation\n\n    $ npm install commander\n\n## Option parsing\n\n Options with commander are defined with the `.option()` method, also serving as documentation for the options. The example below parses args and options from `process.argv`, leaving remaining args as the `program.args` array which were not consumed by options.\n\n```js\n#!/usr/bin/env node\n\n/**\n * Module dependencies.\n */\n\nvar program = require(\'commander\');\n\nprogram\n  .version(\'0.0.1\')\n  .option(\'-p, --peppers\', \'Add peppers\')\n  .option(\'-P, --pineapple\', \'Add pineapple\')\n  .option(\'-b, --bbq\', \'Add bbq sauce\')\n  .option(\'-c, --cheese [type]\', \'Add the specified type of cheese [marble]\', \'marble\')\n  .parse(process.argv);\n\nconsole.log(\'you ordered a pizza with:\');\nif (program.peppers) console.log(\'  - peppers\');\nif (program.pineapple) console.log(\'  - pineapple\');\nif (program.bbq) console.log(\'  - bbq\');\nconsole.log(\'  - %s cheese\', program.cheese);\n```\n\n Short flags may be passed as a single arg, for example `-abc` is equivalent to `-a -b -c`. Multi-word options such as "--template-engine" are camel-cased, becoming `program.templateEngine` etc.\n\n## Automated --help\n\n The help information is auto-generated based on the information commander already knows about your program, so the following `--help` info is for free:\n\n```  \n $ ./examples/pizza --help\n\n   Usage: pizza [options]\n\n   Options:\n\n     -V, --version        output the version number\n     -p, --peppers        Add peppers\n     -P, --pineapple      Add pineapple\n     -b, --bbq            Add bbq sauce\n     -c, --cheese <type>  Add the specified type of cheese [marble]\n     -h, --help           output usage information\n\n```\n\n## Coercion\n\n```js\nfunction range(val) {\n  return val.split(\'..\').map(Number);\n}\n\nfunction list(val) {\n  return val.split(\',\');\n}\n\nprogram\n  .version(\'0.0.1\')\n  .usage(\'[options] <file ...>\')\n  .option(\'-i, --integer <n>\', \'An integer argument\', parseInt)\n  .option(\'-f, --float <n>\', \'A float argument\', parseFloat)\n  .option(\'-r, --range <a>..<b>\', \'A range\', range)\n  .option(\'-l, --list <items>\', \'A list\', list)\n  .option(\'-o, --optional [value]\', \'An optional value\')\n  .parse(process.argv);\n\nconsole.log(\' int: %j\', program.integer);\nconsole.log(\' float: %j\', program.float);\nconsole.log(\' optional: %j\', program.optional);\nprogram.range = program.range || [];\nconsole.log(\' range: %j..%j\', program.range[0], program.range[1]);\nconsole.log(\' list: %j\', program.list);\nconsole.log(\' args: %j\', program.args);\n```\n\n## Custom help\n\n You can display arbitrary `-h, --help` information\n by listening for "--help". Commander will automatically\n exit once you are done so that the remainder of your program\n does not execute causing undesired behaviours, for example\n in the following executable "stuff" will not output when\n `--help` is used.\n\n```js\n#!/usr/bin/env node\n\n/**\n * Module dependencies.\n */\n\nvar program = require(\'../\');\n\nfunction list(val) {\n  return val.split(\',\').map(Number);\n}\n\nprogram\n  .version(\'0.0.1\')\n  .option(\'-f, --foo\', \'enable some foo\')\n  .option(\'-b, --bar\', \'enable some bar\')\n  .option(\'-B, --baz\', \'enable some baz\');\n\n// must be before .parse() since\n// node\'s emit() is immediate\n\nprogram.on(\'--help\', function(){\n  console.log(\'  Examples:\');\n  console.log(\'\');\n  console.log(\'    $ custom-help --help\');\n  console.log(\'    $ custom-help -h\');\n  console.log(\'\');\n});\n\nprogram.parse(process.argv);\n\nconsole.log(\'stuff\');\n```\n\nyielding the following help output:\n\n```\n\nUsage: custom-help [options]\n\nOptions:\n\n  -h, --help     output usage information\n  -V, --version  output the version number\n  -f, --foo      enable some foo\n  -b, --bar      enable some bar\n  -B, --baz      enable some baz\n\nExamples:\n\n  $ custom-help --help\n  $ custom-help -h\n\n```\n\n## .outputHelp()\n\n  Output help information without exiting.\n\n## .help()\n\n  Output help information and exit immediately.\n\n## Links\n\n - [API documentation](http://visionmedia.github.com/commander.js/)\n - [ascii tables](https://github.com/LearnBoost/cli-table)\n - [progress bars](https://github.com/visionmedia/node-progress)\n - [more progress bars](https://github.com/substack/node-multimeter)\n - [examples](https://github.com/visionmedia/commander.js/tree/master/examples)\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+193 silly resolved     readmeFilename: 'Readme.md',
+193 silly resolved     bugs: { url: 'https://github.com/visionmedia/commander.js/issues' },
+193 silly resolved     _id: 'commander@2.1.0',
+193 silly resolved     _from: 'commander@~2.1.0' },
+193 silly resolved   { name: 'gedi',
+193 silly resolved     description: 'An evented data API',
+193 silly resolved     author: { name: 'Kory Nunn', email: 'knunn187@gmail.com' },
+193 silly resolved     version: '0.12.1',
+193 silly resolved     main: 'gedi.js',
+193 silly resolved     dependencies:
+193 silly resolved      { 'gedi-paths': '0.4.x',
+193 silly resolved        'gel-js': '0.6.x',
+193 silly resolved        'lang-js': '0.1.x',
+193 silly resolved        'spec-js': '0.0.x',
+193 silly resolved        weakmap: '0.0.x' },
+193 silly resolved     devDependencies: { tape: 'x.x.x' },
+193 silly resolved     testling: { files: 'test/all.js', browsers: [Object] },
+193 silly resolved     repository: { type: 'git', url: 'git://github.com/KoryNunn/gedi.git' },
+193 silly resolved     bugs: { url: 'http://github.com/KoryNunn/gedi/issues' },
+193 silly resolved     scripts: { test: './node_modules/.bin/tape test/all.js' },
+193 silly resolved     directories: { test: 'test' },
+193 silly resolved     keywords: [ 'model', 'data', 'mdv', 'model-driven' ],
+193 silly resolved     license: 'MIT',
+193 silly resolved     readme: 'Gedi\r\n====\r\n\r\nGaffa evented data interface\r\n\r\n[![browser support](https://ci.testling.com/gaffa-tape/gedi.png)](https://ci.testling.com/gaffa-tape/gedi)\r\n\r\n# What #\r\n\r\nAn *EXTREMELY* powerful model API wrapper.\r\n\r\n# Why? #\r\n\r\nKeeping track of model changes is hard.\r\n\r\nChecking properties is tedious\r\n\r\nMantaining hard references to properties is annoying.\r\n\r\nGedi makes it easy, quick, and maintainable.\r\n\r\n# Usage #\r\n\r\n## Instantiation ##\r\n\r\nTo wrap a model\r\n\r\n    var model = new Gedi({bla:[1,2,3]});\r\n\r\n## Model accessing ##\r\n\r\n### Paths ###\r\n\r\nTo access the model, use paths\r\n\r\nPath syntax is like HTML paths:\r\n\r\n    [/property/property/property]\r\n     ^     ^       ^          ^\r\n    root   |   sub property   |\r\n     property on model     sub sub property\r\n\r\nThis syntax is used as a way to reference value within the model, and is used by the get() set() remove() and bind() functions.\r\n\r\nPaths can be worked with however you like, as they are just strings. However the gedi-paths module has a number of helper functions that can make working with paths easier.\r\n\r\nMake a path from a key:\r\n\r\n    var paths = require(\'gedi-paths\');\r\n    \r\n    var path = paths.create(\'thing\'); \r\n    \r\n    // returns \'[thing]\'\r\n\r\nResolve a path:\r\n\r\n    var resolvedPath = paths.resolve(\'[/hello]\', \'[things]\', \'[..stuff]\', \'[majigger]\');\r\n\r\n    // resolvedPath will be [hello/majigger]\r\n\r\nYou can go up levels to a specific key in a path:\r\n\r\n    var resolvedPath = paths.resole(\'[/accounts/5/docs/4/title]\', \'[..docs]\');\r\n\r\n    // resolvedPath will be [/accounts/5/docs]\r\n\r\nYou can go to the last removed key after going up a level:\r\n\r\n    var resolvedPath = paths.resolve(\'[/accounts/5/docs/4/title]\', \'[..accounts/#/id]\');\r\n\r\n    // resolvedPath will be [/accounts/5/id]\r\n\r\n### Expressions ###\r\n\r\nExpressions can be used to manipulate the data as it is being retrieved from the model. Gedi Expressions use Gel to perform opperations.\r\n\r\nExpressions are logically functional, and as such have no side-effects.\r\n\r\n### Get ###\r\n\r\n    model.get([path/expression])\r\n\r\nget will return the value of the model, at the path specified. if get is called with a falsy path, eg undefined, it will return the entire model.\r\n\r\n    model.get();\r\n\r\n    // returns the model\r\n\r\nAccess the \'bla\' property:\r\n\r\n    return model.get(\'[bla]\');\r\n\r\n    // returns the array [1,2,3]\r\n\r\nAccess an index\r\n\r\n    return model.get(\'[bla/2]\');\r\n\r\n    // returns 3\r\n\r\nUse an expression to get the length of an array:\r\n\r\n    model.get(\'(length [property/someArray])\');\r\n\r\n    // will throw a "parameter was not an object" error because the array doesn\'t exist..\r\n\r\nAccess via a relative path\r\n\r\n    return model.get(\'[2]\', \'[bla]\');\r\n                       ^       ^\r\n                      Path   Parent Path\r\n\r\n    // returns 3\r\n\r\nThis is useful when you have a group of opperations to do at a common path depth\r\n\r\n    var model = new Gedi({\r\n            property:{\r\n                majigger:{\r\n                    thing: \'a\',\r\n                    stuff: \'b\',\r\n                    whatsits: \'c\'\r\n                }\r\n            }\r\n        }),\r\n        currentPath = \'[property/majigger]\',\r\n        thing = model.get(\'[thing]\', currentPath),\r\n        stuff = model.get(\'[stuff]\', currentPath),\r\n        whatsits = model.get(\'[whatsits]\', currentPath);\r\n\r\n        ...\r\n\r\ngaffa (https://github.com/gaffa-tape/gaffa-js) uses this feature to resolve paths in nested viewItems\r\n\r\nRelative paths are also useful when using expressions:\r\n\r\n        ...\r\n\r\n        return model.get(\'(filter [] {item (= item "b")})\', currentPath);\r\n\r\n        // will return {stuff: \'b\'}\r\n\r\n### Set ###\r\n\r\nTo modify the model:\r\n\r\n    model.set(\'[property/majigger/thing]\', \'hello\');\r\n\r\nset() can also be relative:\r\n\r\n    model.set(\'[thing]\', \'hello\', \'[property/majigger]\');\r\n\r\nIf you set into a non-existant path, gedi will automatically create objects to put your value in:\r\n\r\n    model.set(\'[this/does/not/exist/yet]\', \'Now It Does\');\r\n\r\nIf you use an integer in a path, gedi assumes the object is an array:\r\n\r\n    model.set(\'[missingArray/0]\', \'item\');\r\n\r\n    // will create a new array at model.missingArray\r\n\r\nYou can also set into expressions.\r\n\r\n    model.set(\'(last [someArray])\', \'item\');\r\n\r\n    // will set the last index of someArray to \'item\'\r\n    // Assuming someArray exists\r\n\r\nYou can also set into the sub-paths of an expression. (Oh yes..)\r\n\r\n    model.set(\'(map (filter [someArray] {item (>item.age 100)}) {item item.dead})\', true);\r\n\r\n    // will set all dead properties on items in someArray over\r\n    // the age of 100 to true\r\n\r\nYou can also remove via sub-paths of an expression. (lel..)\r\n\r\n    model.remove(\'(filter [someArray] {item item.dead})\');\r\n\r\n    // will remove all dead items in someArray\r\n\r\n## Binding to changes ##\r\n\r\nCallbacks can be bound to the model via Paths or Expressions:\r\n\r\n### Binding to a Path ###\r\n\r\n    model.bind(\'[thing/stuff]\', function(event){\r\n        alert(model.get(event.target));\r\n    });\r\n\r\n    model.set(\'[thing/stuff]\', 5);\r\n\r\n    // will alert 5.\r\n\r\nThe event.target property contains a path to the changed property, NOT the path used to bind the callback.\r\n\r\nThe event.getValue method returns the value at the path used to bind the callback.\r\n\r\n#### Binding to Paths with wildcards ####\r\n\r\nYou can bind to paths containing wildcards to watch for changes to properties on items in an array:\r\n\r\n    model.bind(\'[thing/*/stuff/*/a]\', function(event){\r\n        alert(event.getValue());\r\n    });\r\n\r\n    gedi.set(\'[thing/1/stuff/1/a]\', 1); // will alert 2\r\n    gedi.set(\'[thing/2/stuff/2/b]\', 2); // will not trigger the callback, because the triggered path does not match the bound path\r\n\r\n\r\n### Binding to an Expression ###\r\n\r\nif an Expression is passed to bind(), it will automatically detect every binding in the expression and set the callback to trigger when any referenced parts of the model changes.\r\n\r\n    model.bind(\'(|| [a] [b] [c])\', function(event){\r\n        // Do something.\r\n    });\r\n\r\nThe event object passed to the callback has a number of properties that can be useful:\r\n\r\n    target: The path that triggered the callback\r\n    \r\n    binding: The expression that the callback is bound to.\r\n    \r\n    captureType: can be \'target\', \'bubble\', \'sink\', or \'arrayItem\'. \r\n        - target means the event was captured directly on the target path\r\n        - sink means the event was caused at a a parent path, and has sunk down to the bound path\r\n        - bubble means the event was caused by a child path, and has bubbled up to the bound path\r\n        - arrayItem is a type of bubble, but where the target path was a direct child of an array.\r\n          this is usefull because effecting array children can affect the array\'s lenght property.\r\n        \r\n    getValue: a callback that can be used to evaulate the expression that was used to bind the callback, and return the value, eg:\r\n\r\n    model.bind(\'(|| [a] [b] [c])\', function(event){\r\n        alert(event.getValue());\r\n    });\r\n\r\n    model.set(\'[b]\', \'b is now truthy\'); // will alert b\r\n\r\n    model.set(\'[a]\', \'a is now truthy\'); // will alert a\r\n\r\n    model.set(\'[c]\', \'c is now truthy\'); // will alert a because a is already set, and it is truthy\r\n\r\nExpressions with wildcards are not supported, as there is no logical way to handle an expression containing more than one wildcarded path.\r\n\r\n### Removing a binding ###\r\n\r\nTo stop listening for changes to the model, use .debind()\r\n\r\nTo remove a callback at a specific path:\r\n\r\n    model.debind(\'[a]\', callback);\r\n\r\nTo remove a callback from gedi entirely:\r\n\r\n    model.debind(callback);\r\n\r\nTo remove all callbacks at a specific path:\r\n\r\n    model.debind(\'[a]\');\r\n\r\n\r\n',
+193 silly resolved     readmeFilename: 'README.md',
+193 silly resolved     _id: 'gedi@0.12.1',
+193 silly resolved     _from: 'gedi@~0.12.1' } ]
+194 info install commander@2.1.0 into C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect
+195 info install gedi@0.12.1 into C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect
+196 info installOne commander@2.1.0
+197 info installOne gedi@0.12.1
+198 info C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\commander unbuild
+199 info C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi unbuild
+200 verbose tar unpack C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\commander\2.1.0\package.tgz
+201 silly lockFile 0f5925e1-es-jspect-node-modules-commander tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\commander
+202 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\commander C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\0f5925e1-es-jspect-node-modules-commander.lock
+203 silly lockFile 9f180ab5-ache-commander-2-1-0-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\commander\2.1.0\package.tgz
+204 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\commander\2.1.0\package.tgz C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\9f180ab5-ache-commander-2-1-0-package-tgz.lock
+205 verbose tar unpack C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gedi\0.12.1\package.tgz
+206 silly lockFile 464beafc-modules-jspect-node-modules-gedi tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi
+207 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\464beafc-modules-jspect-node-modules-gedi.lock
+208 silly lockFile d01a3a91-pm-cache-gedi-0-12-1-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gedi\0.12.1\package.tgz
+209 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gedi\0.12.1\package.tgz C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\d01a3a91-pm-cache-gedi-0-12-1-package-tgz.lock
+210 silly gunzTarPerm modes [ '755', '644' ]
+211 silly gunzTarPerm modes [ '755', '644' ]
+212 silly gunzTarPerm extractEntry package.json
+213 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+214 silly gunzTarPerm extractEntry package.json
+215 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+216 silly gunzTarPerm extractEntry index.js
+217 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+218 silly gunzTarPerm extractEntry Readme.md
+219 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+220 silly gunzTarPerm extractEntry .npmignore
+221 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+222 silly gunzTarPerm extractEntry README.md
+223 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+224 silly gunzTarPerm extractEntry events.js
+225 silly gunzTarPerm modified mode [ 'events.js', 438, 420 ]
+226 silly gunzTarPerm extractEntry gedi.js
+227 silly gunzTarPerm modified mode [ 'gedi.js', 438, 420 ]
+228 silly gunzTarPerm extractEntry modelOpperations.js
+229 silly gunzTarPerm modified mode [ 'modelOpperations.js', 438, 420 ]
+230 silly gunzTarPerm extractEntry pathToken.js
+231 silly gunzTarPerm modified mode [ 'pathToken.js', 438, 420 ]
+232 silly gunzTarPerm extractEntry set.js
+233 silly gunzTarPerm modified mode [ 'set.js', 438, 420 ]
+234 silly gunzTarPerm extractEntry .gitattributes
+235 silly gunzTarPerm modified mode [ '.gitattributes', 438, 420 ]
+236 silly lockFile 0f5925e1-es-jspect-node-modules-commander tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\commander
+237 silly lockFile 0f5925e1-es-jspect-node-modules-commander tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\commander
+238 silly lockFile 9f180ab5-ache-commander-2-1-0-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\commander\2.1.0\package.tgz
+239 silly lockFile 9f180ab5-ache-commander-2-1-0-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\commander\2.1.0\package.tgz
+240 info preinstall commander@2.1.0
+241 verbose readDependencies using package.json deps
+242 verbose readDependencies using package.json deps
+243 silly resolved []
+244 verbose about to build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\commander
+245 info build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\commander
+246 verbose linkStuff [ true,
+246 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules',
+246 verbose linkStuff   false,
+246 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules\\jspect\\node_modules' ]
+247 info linkStuff commander@2.1.0
+248 verbose linkBins commander@2.1.0
+249 verbose linkMans commander@2.1.0
+250 verbose rebuildBundles commander@2.1.0
+251 info install commander@2.1.0
+252 info postinstall commander@2.1.0
+253 silly lockFile 464beafc-modules-jspect-node-modules-gedi tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi
+254 silly lockFile 464beafc-modules-jspect-node-modules-gedi tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi
+255 silly lockFile d01a3a91-pm-cache-gedi-0-12-1-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gedi\0.12.1\package.tgz
+256 silly lockFile d01a3a91-pm-cache-gedi-0-12-1-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gedi\0.12.1\package.tgz
+257 info preinstall gedi@0.12.1
+258 verbose readDependencies using package.json deps
+259 verbose readDependencies using package.json deps
+260 verbose cache add [ 'gedi-paths@0.4.x', null ]
+261 verbose cache add name=undefined spec="gedi-paths@0.4.x" args=["gedi-paths@0.4.x",null]
+262 verbose parsed url { protocol: null,
+262 verbose parsed url   slashes: null,
+262 verbose parsed url   auth: null,
+262 verbose parsed url   host: null,
+262 verbose parsed url   port: null,
+262 verbose parsed url   hostname: null,
+262 verbose parsed url   hash: null,
+262 verbose parsed url   search: null,
+262 verbose parsed url   query: null,
+262 verbose parsed url   pathname: 'gedi-paths@0.4.x',
+262 verbose parsed url   path: 'gedi-paths@0.4.x',
+262 verbose parsed url   href: 'gedi-paths@0.4.x' }
+263 verbose cache add name="gedi-paths" spec="0.4.x" args=["gedi-paths","0.4.x"]
+264 verbose parsed url { protocol: null,
+264 verbose parsed url   slashes: null,
+264 verbose parsed url   auth: null,
+264 verbose parsed url   host: null,
+264 verbose parsed url   port: null,
+264 verbose parsed url   hostname: null,
+264 verbose parsed url   hash: null,
+264 verbose parsed url   search: null,
+264 verbose parsed url   query: null,
+264 verbose parsed url   pathname: '0.4.x',
+264 verbose parsed url   path: '0.4.x',
+264 verbose parsed url   href: '0.4.x' }
+265 verbose addNamed [ 'gedi-paths', '0.4.x' ]
+266 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+267 silly lockFile 84f5d0ac-gedi-paths-0-4-x gedi-paths@0.4.x
+268 verbose lock gedi-paths@0.4.x C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\84f5d0ac-gedi-paths-0-4-x.lock
+269 verbose cache add [ 'gel-js@0.6.x', null ]
+270 verbose cache add name=undefined spec="gel-js@0.6.x" args=["gel-js@0.6.x",null]
+271 verbose parsed url { protocol: null,
+271 verbose parsed url   slashes: null,
+271 verbose parsed url   auth: null,
+271 verbose parsed url   host: null,
+271 verbose parsed url   port: null,
+271 verbose parsed url   hostname: null,
+271 verbose parsed url   hash: null,
+271 verbose parsed url   search: null,
+271 verbose parsed url   query: null,
+271 verbose parsed url   pathname: 'gel-js@0.6.x',
+271 verbose parsed url   path: 'gel-js@0.6.x',
+271 verbose parsed url   href: 'gel-js@0.6.x' }
+272 verbose cache add name="gel-js" spec="0.6.x" args=["gel-js","0.6.x"]
+273 verbose parsed url { protocol: null,
+273 verbose parsed url   slashes: null,
+273 verbose parsed url   auth: null,
+273 verbose parsed url   host: null,
+273 verbose parsed url   port: null,
+273 verbose parsed url   hostname: null,
+273 verbose parsed url   hash: null,
+273 verbose parsed url   search: null,
+273 verbose parsed url   query: null,
+273 verbose parsed url   pathname: '0.6.x',
+273 verbose parsed url   path: '0.6.x',
+273 verbose parsed url   href: '0.6.x' }
+274 verbose addNamed [ 'gel-js', '0.6.x' ]
+275 verbose addNamed [ null, '>=0.6.0-0 <0.7.0-0' ]
+276 silly lockFile 38de05f3-gel-js-0-6-x gel-js@0.6.x
+277 verbose lock gel-js@0.6.x C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\38de05f3-gel-js-0-6-x.lock
+278 verbose cache add [ 'lang-js@0.1.x', null ]
+279 verbose cache add name=undefined spec="lang-js@0.1.x" args=["lang-js@0.1.x",null]
+280 verbose parsed url { protocol: null,
+280 verbose parsed url   slashes: null,
+280 verbose parsed url   auth: null,
+280 verbose parsed url   host: null,
+280 verbose parsed url   port: null,
+280 verbose parsed url   hostname: null,
+280 verbose parsed url   hash: null,
+280 verbose parsed url   search: null,
+280 verbose parsed url   query: null,
+280 verbose parsed url   pathname: 'lang-js@0.1.x',
+280 verbose parsed url   path: 'lang-js@0.1.x',
+280 verbose parsed url   href: 'lang-js@0.1.x' }
+281 verbose cache add name="lang-js" spec="0.1.x" args=["lang-js","0.1.x"]
+282 verbose parsed url { protocol: null,
+282 verbose parsed url   slashes: null,
+282 verbose parsed url   auth: null,
+282 verbose parsed url   host: null,
+282 verbose parsed url   port: null,
+282 verbose parsed url   hostname: null,
+282 verbose parsed url   hash: null,
+282 verbose parsed url   search: null,
+282 verbose parsed url   query: null,
+282 verbose parsed url   pathname: '0.1.x',
+282 verbose parsed url   path: '0.1.x',
+282 verbose parsed url   href: '0.1.x' }
+283 verbose addNamed [ 'lang-js', '0.1.x' ]
+284 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+285 silly lockFile 3fddaefa-lang-js-0-1-x lang-js@0.1.x
+286 verbose lock lang-js@0.1.x C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\3fddaefa-lang-js-0-1-x.lock
+287 verbose cache add [ 'spec-js@0.0.x', null ]
+288 verbose cache add name=undefined spec="spec-js@0.0.x" args=["spec-js@0.0.x",null]
+289 verbose parsed url { protocol: null,
+289 verbose parsed url   slashes: null,
+289 verbose parsed url   auth: null,
+289 verbose parsed url   host: null,
+289 verbose parsed url   port: null,
+289 verbose parsed url   hostname: null,
+289 verbose parsed url   hash: null,
+289 verbose parsed url   search: null,
+289 verbose parsed url   query: null,
+289 verbose parsed url   pathname: 'spec-js@0.0.x',
+289 verbose parsed url   path: 'spec-js@0.0.x',
+289 verbose parsed url   href: 'spec-js@0.0.x' }
+290 verbose cache add name="spec-js" spec="0.0.x" args=["spec-js","0.0.x"]
+291 verbose parsed url { protocol: null,
+291 verbose parsed url   slashes: null,
+291 verbose parsed url   auth: null,
+291 verbose parsed url   host: null,
+291 verbose parsed url   port: null,
+291 verbose parsed url   hostname: null,
+291 verbose parsed url   hash: null,
+291 verbose parsed url   search: null,
+291 verbose parsed url   query: null,
+291 verbose parsed url   pathname: '0.0.x',
+291 verbose parsed url   path: '0.0.x',
+291 verbose parsed url   href: '0.0.x' }
+292 verbose addNamed [ 'spec-js', '0.0.x' ]
+293 verbose addNamed [ null, '>=0.0.0-0 <0.1.0-0' ]
+294 silly lockFile 59f8a31f-spec-js-0-0-x spec-js@0.0.x
+295 verbose lock spec-js@0.0.x C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\59f8a31f-spec-js-0-0-x.lock
+296 verbose cache add [ 'weakmap@0.0.x', null ]
+297 verbose cache add name=undefined spec="weakmap@0.0.x" args=["weakmap@0.0.x",null]
+298 verbose parsed url { protocol: null,
+298 verbose parsed url   slashes: null,
+298 verbose parsed url   auth: null,
+298 verbose parsed url   host: null,
+298 verbose parsed url   port: null,
+298 verbose parsed url   hostname: null,
+298 verbose parsed url   hash: null,
+298 verbose parsed url   search: null,
+298 verbose parsed url   query: null,
+298 verbose parsed url   pathname: 'weakmap@0.0.x',
+298 verbose parsed url   path: 'weakmap@0.0.x',
+298 verbose parsed url   href: 'weakmap@0.0.x' }
+299 verbose cache add name="weakmap" spec="0.0.x" args=["weakmap","0.0.x"]
+300 verbose parsed url { protocol: null,
+300 verbose parsed url   slashes: null,
+300 verbose parsed url   auth: null,
+300 verbose parsed url   host: null,
+300 verbose parsed url   port: null,
+300 verbose parsed url   hostname: null,
+300 verbose parsed url   hash: null,
+300 verbose parsed url   search: null,
+300 verbose parsed url   query: null,
+300 verbose parsed url   pathname: '0.0.x',
+300 verbose parsed url   path: '0.0.x',
+300 verbose parsed url   href: '0.0.x' }
+301 verbose addNamed [ 'weakmap', '0.0.x' ]
+302 verbose addNamed [ null, '>=0.0.0-0 <0.1.0-0' ]
+303 silly lockFile 95c6281c-weakmap-0-0-x weakmap@0.0.x
+304 verbose lock weakmap@0.0.x C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\95c6281c-weakmap-0-0-x.lock
+305 silly addNameRange { name: 'gedi-paths',
+305 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+305 silly addNameRange   hasData: false }
+306 silly addNameRange { name: 'gel-js', range: '>=0.6.0-0 <0.7.0-0', hasData: false }
+307 silly addNameRange { name: 'lang-js', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+308 silly addNameRange { name: 'spec-js', range: '>=0.0.0-0 <0.1.0-0', hasData: false }
+309 silly addNameRange { name: 'weakmap', range: '>=0.0.0-0 <0.1.0-0', hasData: false }
+310 verbose url raw gedi-paths
+311 verbose url resolving [ 'https://registry.npmjs.org/', './gedi-paths' ]
+312 verbose url resolved https://registry.npmjs.org/gedi-paths
+313 info trying registry request attempt 1 at 23:17:14
+314 verbose etag "P8995B3TFWT74J2Y22CHJEL5"
+315 http GET https://registry.npmjs.org/gedi-paths
+316 verbose url raw lang-js
+317 verbose url resolving [ 'https://registry.npmjs.org/', './lang-js' ]
+318 verbose url resolved https://registry.npmjs.org/lang-js
+319 info trying registry request attempt 1 at 23:17:14
+320 verbose etag "A151U5V2EP72GAHQC7ALZM2Z2"
+321 http GET https://registry.npmjs.org/lang-js
+322 verbose url raw gel-js
+323 verbose url resolving [ 'https://registry.npmjs.org/', './gel-js' ]
+324 verbose url resolved https://registry.npmjs.org/gel-js
+325 info trying registry request attempt 1 at 23:17:14
+326 verbose etag "3LWF7I0J7E956R016ZL2FGLAE"
+327 http GET https://registry.npmjs.org/gel-js
+328 verbose url raw spec-js
+329 verbose url resolving [ 'https://registry.npmjs.org/', './spec-js' ]
+330 verbose url resolved https://registry.npmjs.org/spec-js
+331 info trying registry request attempt 1 at 23:17:14
+332 verbose etag "82SICAPIQMYGVNUQO89ZZA13F"
+333 http GET https://registry.npmjs.org/spec-js
+334 verbose url raw weakmap
+335 verbose url resolving [ 'https://registry.npmjs.org/', './weakmap' ]
+336 verbose url resolved https://registry.npmjs.org/weakmap
+337 info trying registry request attempt 1 at 23:17:14
+338 verbose etag "5D9IWQG0Z7YIKHSBAQ6U88R18"
+339 http GET https://registry.npmjs.org/weakmap
+340 http 304 https://registry.npmjs.org/gedi-paths
+341 silly registry.get cb [ 304,
+341 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+341 silly registry.get     etag: '"P8995B3TFWT74J2Y22CHJEL5"',
+341 silly registry.get     date: 'Fri, 06 Dec 2013 13:17:16 GMT',
+341 silly registry.get     'content-length': '0' } ]
+342 verbose etag gedi-paths from cache
+343 silly addNameRange number 2 { name: 'gedi-paths',
+343 silly addNameRange   range: '>=0.4.0-0 <0.5.0-0',
+343 silly addNameRange   hasData: true }
+344 silly addNameRange versions [ 'gedi-paths',
+344 silly addNameRange   [ '0.1.0',
+344 silly addNameRange     '0.1.1',
+344 silly addNameRange     '0.1.2',
+344 silly addNameRange     '0.1.3',
+344 silly addNameRange     '0.2.0',
+344 silly addNameRange     '0.3.0',
+344 silly addNameRange     '0.4.0',
+344 silly addNameRange     '0.4.1',
+344 silly addNameRange     '0.4.2',
+344 silly addNameRange     '0.4.3',
+344 silly addNameRange     '0.4.4',
+344 silly addNameRange     '0.4.5',
+344 silly addNameRange     '0.4.6',
+344 silly addNameRange     '0.4.7',
+344 silly addNameRange     '0.4.8',
+344 silly addNameRange     '0.4.9',
+344 silly addNameRange     '0.4.10' ] ]
+345 verbose addNamed [ 'gedi-paths', '0.4.10' ]
+346 verbose addNamed [ '0.4.10', '0.4.10' ]
+347 silly lockFile 535a9e49-gedi-paths-0-4-10 gedi-paths@0.4.10
+348 verbose lock gedi-paths@0.4.10 C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\535a9e49-gedi-paths-0-4-10.lock
+349 http 304 https://registry.npmjs.org/weakmap
+350 silly registry.get cb [ 304,
+350 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+350 silly registry.get     etag: '"5D9IWQG0Z7YIKHSBAQ6U88R18"',
+350 silly registry.get     date: 'Fri, 06 Dec 2013 13:17:16 GMT',
+350 silly registry.get     'content-length': '0' } ]
+351 verbose etag weakmap from cache
+352 silly lockFile 535a9e49-gedi-paths-0-4-10 gedi-paths@0.4.10
+353 silly lockFile 535a9e49-gedi-paths-0-4-10 gedi-paths@0.4.10
+354 silly lockFile 84f5d0ac-gedi-paths-0-4-x gedi-paths@0.4.x
+355 silly lockFile 84f5d0ac-gedi-paths-0-4-x gedi-paths@0.4.x
+356 http 304 https://registry.npmjs.org/gel-js
+357 silly registry.get cb [ 304,
+357 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+357 silly registry.get     etag: '"3LWF7I0J7E956R016ZL2FGLAE"',
+357 silly registry.get     date: 'Fri, 06 Dec 2013 13:17:16 GMT',
+357 silly registry.get     'content-length': '0' } ]
+358 verbose etag gel-js from cache
+359 silly addNameRange number 2 { name: 'weakmap', range: '>=0.0.0-0 <0.1.0-0', hasData: true }
+360 silly addNameRange versions [ 'weakmap',
+360 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.0.6' ] ]
+361 verbose addNamed [ 'weakmap', '0.0.6' ]
+362 verbose addNamed [ '0.0.6', '0.0.6' ]
+363 silly lockFile 1b8bf244-weakmap-0-0-6 weakmap@0.0.6
+364 verbose lock weakmap@0.0.6 C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\1b8bf244-weakmap-0-0-6.lock
+365 http 304 https://registry.npmjs.org/spec-js
+366 silly registry.get cb [ 304,
+366 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+366 silly registry.get     etag: '"82SICAPIQMYGVNUQO89ZZA13F"',
+366 silly registry.get     date: 'Fri, 06 Dec 2013 13:17:16 GMT',
+366 silly registry.get     'content-length': '0' } ]
+367 verbose etag spec-js from cache
+368 silly lockFile 1b8bf244-weakmap-0-0-6 weakmap@0.0.6
+369 silly lockFile 1b8bf244-weakmap-0-0-6 weakmap@0.0.6
+370 silly addNameRange number 2 { name: 'spec-js', range: '>=0.0.0-0 <0.1.0-0', hasData: true }
+371 silly addNameRange versions [ 'spec-js', [ '0.0.1' ] ]
+372 verbose addNamed [ 'spec-js', '0.0.1' ]
+373 verbose addNamed [ '0.0.1', '0.0.1' ]
+374 silly lockFile 6162f7a0-spec-js-0-0-1 spec-js@0.0.1
+375 verbose lock spec-js@0.0.1 C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\6162f7a0-spec-js-0-0-1.lock
+376 silly lockFile 95c6281c-weakmap-0-0-x weakmap@0.0.x
+377 silly lockFile 95c6281c-weakmap-0-0-x weakmap@0.0.x
+378 silly addNameRange number 2 { name: 'gel-js', range: '>=0.6.0-0 <0.7.0-0', hasData: true }
+379 silly addNameRange versions [ 'gel-js',
+379 silly addNameRange   [ '0.0.1',
+379 silly addNameRange     '0.0.2',
+379 silly addNameRange     '0.0.3',
+379 silly addNameRange     '0.3.0',
+379 silly addNameRange     '0.3.1',
+379 silly addNameRange     '0.3.2',
+379 silly addNameRange     '0.3.3',
+379 silly addNameRange     '0.3.4',
+379 silly addNameRange     '0.3.5',
+379 silly addNameRange     '0.3.6',
+379 silly addNameRange     '0.3.7',
+379 silly addNameRange     '0.3.8',
+379 silly addNameRange     '0.3.9',
+379 silly addNameRange     '0.3.10',
+379 silly addNameRange     '0.3.11',
+379 silly addNameRange     '0.3.12',
+379 silly addNameRange     '0.4.0',
+379 silly addNameRange     '0.4.1',
+379 silly addNameRange     '0.5.0',
+379 silly addNameRange     '0.5.1',
+379 silly addNameRange     '0.5.2',
+379 silly addNameRange     '0.5.3',
+379 silly addNameRange     '0.5.4',
+379 silly addNameRange     '0.5.5',
+379 silly addNameRange     '0.5.6',
+379 silly addNameRange     '0.5.7',
+379 silly addNameRange     '0.5.8',
+379 silly addNameRange     '0.5.9',
+379 silly addNameRange     '0.5.10',
+379 silly addNameRange     '0.5.11',
+379 silly addNameRange     '0.6.0',
+379 silly addNameRange     '0.6.1' ] ]
+380 verbose addNamed [ 'gel-js', '0.6.1' ]
+381 verbose addNamed [ '0.6.1', '0.6.1' ]
+382 silly lockFile 8372a143-gel-js-0-6-1 gel-js@0.6.1
+383 verbose lock gel-js@0.6.1 C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\8372a143-gel-js-0-6-1.lock
+384 silly lockFile 6162f7a0-spec-js-0-0-1 spec-js@0.0.1
+385 silly lockFile 6162f7a0-spec-js-0-0-1 spec-js@0.0.1
+386 silly lockFile 8372a143-gel-js-0-6-1 gel-js@0.6.1
+387 silly lockFile 8372a143-gel-js-0-6-1 gel-js@0.6.1
+388 silly lockFile 59f8a31f-spec-js-0-0-x spec-js@0.0.x
+389 silly lockFile 59f8a31f-spec-js-0-0-x spec-js@0.0.x
+390 silly lockFile 38de05f3-gel-js-0-6-x gel-js@0.6.x
+391 silly lockFile 38de05f3-gel-js-0-6-x gel-js@0.6.x
+392 http 304 https://registry.npmjs.org/lang-js
+393 silly registry.get cb [ 304,
+393 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+393 silly registry.get     etag: '"A151U5V2EP72GAHQC7ALZM2Z2"',
+393 silly registry.get     date: 'Fri, 06 Dec 2013 13:17:17 GMT',
+393 silly registry.get     'content-length': '0' } ]
+394 verbose etag lang-js from cache
+395 silly addNameRange number 2 { name: 'lang-js', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+396 silly addNameRange versions [ 'lang-js',
+396 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '0.0.5', '0.1.0', '0.1.1' ] ]
+397 verbose addNamed [ 'lang-js', '0.1.1' ]
+398 verbose addNamed [ '0.1.1', '0.1.1' ]
+399 silly lockFile 4e1aa141-lang-js-0-1-1 lang-js@0.1.1
+400 verbose lock lang-js@0.1.1 C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\4e1aa141-lang-js-0-1-1.lock
+401 silly lockFile 4e1aa141-lang-js-0-1-1 lang-js@0.1.1
+402 silly lockFile 4e1aa141-lang-js-0-1-1 lang-js@0.1.1
+403 silly lockFile 3fddaefa-lang-js-0-1-x lang-js@0.1.x
+404 silly lockFile 3fddaefa-lang-js-0-1-x lang-js@0.1.x
+405 silly resolved [ { name: 'gedi-paths',
+405 silly resolved     description: 'Gedi path functions',
+405 silly resolved     author: { name: 'Kory Nunn', email: 'knunn187@gmail.com' },
+405 silly resolved     version: '0.4.10',
+405 silly resolved     main: 'paths.js',
+405 silly resolved     testling: { files: 'test/all.js', browsers: [Object] },
+405 silly resolved     devDependencies: { grape: '0.1.x' },
+405 silly resolved     repository: { type: 'git', url: 'git://github.com/KoryNunn/gedi-paths.git' },
+405 silly resolved     bugs: { url: 'http://github.com/KoryNunn/gedi-paths/issues' },
+405 silly resolved     scripts: { test: './node_modules/.bin/tape test/all.js' },
+405 silly resolved     contributors: [],
+405 silly resolved     readme: 'Gedi Paths\r\n====\r\n\r\nA convenience library for working with gedi paths.\r\n\r\n[![browser support](https://ci.testling.com/gaffa-tape/gedi-paths.png)](https://ci.testling.com/gaffa-tape/gedi-paths)\r\n\r\n    var paths = require(\'gedi-paths\');\r\n\r\n    paths.create(number/string/array);\r\n    // Create a valid gedi path from a string/number, or an array of strings/numbers.\r\n\r\n    paths.isAbsolute(path);\r\n    // Checks if a path is absolute (basically, starts with \'/\'\r\n\r\n    paths.isRoot(path);\r\n    // Checks if a path is equivilent to \'[]\'\r\n\r\n    paths.append(path1, path2, ... pathN);\r\n    // Adds paths together to form an unresolved path,\r\n    // eg, paths.append(\'[stuff]\', \'[/things]\', \'[../majigger]\');\r\n    // would result in [stuff//things/../majigger], an unresolved, invalid path.\r\n\r\n    paths.toParts(path);\r\n    // Breaks a path into an array of path parts/keys.\r\n\r\n    paths.createRoot();\r\n    // Returns a root path (\'[/]\')\r\n\r\n    paths.resolve(path1, path2, ... pathN);\r\n    // Resolves an invalid path to a valid one,\r\n    // eg: paths.resolve(\'[stuff//things/../majigger]\')\r\n    // would result in \'[/majigger]\'',
+405 silly resolved     readmeFilename: 'README.md',
+405 silly resolved     _id: 'gedi-paths@0.4.10',
+405 silly resolved     _from: 'gedi-paths@0.4.x' },
+405 silly resolved   { author: { name: 'Brandon Benvie', email: 'http://bbenvie.com' },
+405 silly resolved     name: 'weakmap',
+405 silly resolved     description: 'Shim for WeakMap with non-leaky O(1) lookup time',
+405 silly resolved     keywords:
+405 silly resolved      [ 'harmony',
+405 silly resolved        'collection',
+405 silly resolved        'weakmap',
+405 silly resolved        'ecmascript',
+405 silly resolved        'es6',
+405 silly resolved        'shim',
+405 silly resolved        'garbage collection',
+405 silly resolved        'gc' ],
+405 silly resolved     version: '0.0.6',
+405 silly resolved     homepage: 'http://benvie.github.com/WeakMap',
+405 silly resolved     repository: { type: 'git', url: 'https://github.com/Benvie/WeakMap' },
+405 silly resolved     main: 'weakmap.js',
+405 silly resolved     license: 'MIT',
+405 silly resolved     readme: '# WeakMap Shim\nThis is a standalone shim for WeakMap, separated out from the full Harmony Collections shim at https://github.com/Benvie/harmony-collections. WeakMap is by far the most useful new addition. If you only need to use objects as keys then uou can use this much more compact library that doesn\'t have to implement three other classes.\n\n## Compatability\n\nWorks with IE9+, Chrome, Firefox, Safari, untested in Opera.\n\n## Install/Use\n\nIf using node, install via:\n\n    npm install weakmap\n\nIn the browser, include __weakmap.js__ or __weakmap.min.js__ and WeakMap will be exposed on the window.\n\n## Overview\n\nWeakMaps provide a new core weapon to your JS arsenal: objects as keys. This allows you to do the following awesome things: store private data "on" public objects, private properties, secretly "tag" objects, namespace properties, access controlled properties, check object uniqueness in `O(1)` time complexity.\n\n### WeakMap Garbage Collection Semantics\n\nA benefit of using WeakMaps is enhanced garbage collection. In a WeakMap, the only reference created is key -> value, so it\'s possible for a key/value in a WeakMap to be garbage collected while the WeakMap they\'re in still exists! Compare this to an Array, where all items in the Array will not be garbage collected as long as the Array isn\'t. This forces either explicit management of  object lifespans or, more commonly, simply results in memory leaks.\n\nFor example, data stored using jQuery.data can never be garbage collected unless explicitly nulled out, because it is stored in a container that strongly references the items held inside. Using a WeakMap, it\'s possible to associate data with an element and have the data destroyed when the element is -- without memory leaking the element; i.e. `weakmap.set(element, { myData: \'gc safe!\' })`. jQuery.data (every library has similar functionality) prevents the *element* from memory leaking by using a numeric id, but this does nothing for the __data__ that is stored.\n\n## Example\n\n```javascript\n// reusable storage creator\nfunction createStorage(){\n  var store = new WeakMap;\n  return function(o){\n    var v = store.get(o);\n    if (!v) store.set(o, v = {});\n    return v;\n  };\n}\n\n// allows private/namespaced properties for the objects\nvar _ = createStorage();\n\nfunctioon Wrapper(element){\n  var _element = _(element);\n  if (_element.wrapper)\n    return _element.wrapper;\n\n  _element.wrapper = this;\n  _(this).element = element;\n}\n\nWrapper.prototype = {\n  get classes(){\n    return [].slice.call(_(this).element.classList);\n  },\n  set classes(v){\n    _(this).element.className = [].concat(v).join(\' \');\n  }\n};\n```\n\n\n## API Reference\n\n* WeakMaps may be inherited from. Initialize objects via `WeakMap.call(obj)`.\n\n### WeakMap\n\n__Non-primitives__ are valid keys. Objects, functions, DOM nodes, etc.\n\nWeakMaps require the use of objects as keys; primitives are not valid keys. WeakMaps have no way to enumerate their keys or values. Because of this, the only way to retrieve a value from a WeakMap is to have access to both the WeakMap itself as well as an object used as a key.\n\n* `new WeakMap(iterable)` Create a new WeakMap populated with the iterable. Accepts *[[Key, Value]...]*, *Array*, *Iterable*.\n* `WeakMap#set(key, value)` Key must be non-primitive. Returns undefined.\n* `WeakMap#get(key)` Returns the value that key corresponds to the key or undefined.\n* `WeakMap#has(key)` Returns boolean.\n* `WeakMap#delete(key)` Removes the value from the collection and returns boolean indicating if there was a value to delete.\n\n\n## License\n\n(The MIT License)\nCopyright (c) 2012 Brandon Benvie <http://bbenvie.com>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files\n(the \'Software\'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge,\npublish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,\nsubject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included with all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE\nFOR ANY  CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH\nTHE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+405 silly resolved     readmeFilename: 'README.md',
+405 silly resolved     bugs: { url: 'https://github.com/Benvie/WeakMap/issues' },
+405 silly resolved     _id: 'weakmap@0.0.6',
+405 silly resolved     _from: 'weakmap@0.0.x' },
+405 silly resolved   { name: 'spec-js',
+405 silly resolved     description: 'Creates fast, prototypicaly inherited, super-calling constructors',
+405 silly resolved     author: { name: 'Kory Nunn', email: 'knunn187@gmail.com' },
+405 silly resolved     tags: [ 'DOM' ],
+405 silly resolved     version: '0.0.1',
+405 silly resolved     main: 'spec.js',
+405 silly resolved     repository: { type: 'git', url: 'git://github.com/KoryNunn/spec.git' },
+405 silly resolved     bugs: { url: 'http://github.com/KoryNunn/spec/issues' },
+405 silly resolved     devDependencies: { tape: '>=0.0.4' },
+405 silly resolved     scripts: { test: 'node ./test/test.js' },
+405 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+405 silly resolved     readme: 'Spec\r\n====\r\n\r\n\r\n# What #\r\n\r\nA fast, prototypicaly inherited, super-calling constructor-maker\r\n\r\n# Why? #\r\n\r\nMakes protypical inheritance a bit easier.\r\n\r\n# Usage #\r\n\r\nrequire()\r\n\r\n    var createSpec = require(\'spec-js\');\r\n\r\nMake a constructor\r\n\r\n    function Shape(settings){\r\n        this.sides = settings.sides;\r\n    }\r\n\r\nOverwrite the identifier with a specd version\r\n\r\n    Shape = createSpec(Shape);\r\n\r\nThis creates a specd version of Shape that inherrits from Object.\r\n\r\nTo inherit from this constructor:\r\n\r\n    function Square(settings){\r\n        this.sides = 4;\r\n        this.sideLength = settings.sideLength;\r\n    }',
+405 silly resolved     readmeFilename: 'README.md',
+405 silly resolved     _id: 'spec-js@0.0.1',
+405 silly resolved     _from: 'spec-js@0.0.x' },
+405 silly resolved   { author: { name: 'Kory Nunn', email: 'knunn187@gmail.com' },
+405 silly resolved     contributors: [ [Object], [Object], [Object] ],
+405 silly resolved     name: 'gel-js',
+405 silly resolved     description: '\'Gaffa expression language\' is an extensible expression language that lets you safely input epxressions into an application',
+405 silly resolved     version: '0.6.1',
+405 silly resolved     repository: { type: 'git', url: 'https://github.com/gaffa-tape/gel.git' },
+405 silly resolved     main: 'gel',
+405 silly resolved     engines: { node: '>=0.6' },
+405 silly resolved     dependencies: { 'lang-js': '0.1.x', 'spec-js': '0.0.x', 'gedi-paths': '0.4.x' },
+405 silly resolved     keywords: [ 'gel', 'gaffa', 'expression' ],
+405 silly resolved     devDependencies: { tape: '>=0.0.4' },
+405 silly resolved     scripts: { test: 'node ./test/test.js' },
+405 silly resolved     testling: { files: 'test/*.js', browsers: [Object] },
+405 silly resolved     license: 'MIT',
+405 silly resolved     readme: 'gel\r\n===\r\n\r\nGaffa Expression Language\r\n\r\nCopyright (C) 2012 Anthony Truskinger & Kory Nunn \r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\r\n',
+405 silly resolved     readmeFilename: 'README.md',
+405 silly resolved     bugs: { url: 'https://github.com/gaffa-tape/gel/issues' },
+405 silly resolved     _id: 'gel-js@0.6.1',
+405 silly resolved     _from: 'gel-js@0.6.x' },
+405 silly resolved   { name: 'lang-js',
+405 silly resolved     description: 'A library for implementing custom in-js languages in',
+405 silly resolved     author: { name: 'Kory Nunn', email: 'knunn187@gmail.com' },
+405 silly resolved     tags: [ 'language' ],
+405 silly resolved     version: '0.1.1',
+405 silly resolved     main: 'lang.js',
+405 silly resolved     dependencies: { 'spec-js': '0.0.x' },
+405 silly resolved     devDependencies: { tape: '~0.0.4' },
+405 silly resolved     repository: { type: 'git', url: 'git://github.com/KoryNunn/lang.git' },
+405 silly resolved     bugs: { url: 'http://github.com/KoryNunn/lang/issues' },
+405 silly resolved     scripts: { test: 'node ./test/test.js' },
+405 silly resolved     contributors: [],
+405 silly resolved     readme: 'lang\r\n====\r\n\r\nA small library for implementing custom languages in.\r\n\r\nOne might call it a script host if one wasn\'t sure what to call it...',
+405 silly resolved     readmeFilename: 'README.md',
+405 silly resolved     _id: 'lang-js@0.1.1',
+405 silly resolved     _from: 'lang-js@0.1.x' } ]
+406 info install gedi-paths@0.4.10 into C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi
+407 info install weakmap@0.0.6 into C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi
+408 info install spec-js@0.0.1 into C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi
+409 info install gel-js@0.6.1 into C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi
+410 info install lang-js@0.1.1 into C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi
+411 info installOne gedi-paths@0.4.10
+412 info installOne weakmap@0.0.6
+413 info installOne spec-js@0.0.1
+414 info installOne gel-js@0.6.1
+415 info installOne lang-js@0.1.1
+416 info C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gedi-paths unbuild
+417 info C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\weakmap unbuild
+418 info C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\spec-js unbuild
+419 info C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gel-js unbuild
+420 info C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\lang-js unbuild
+421 verbose tar unpack C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gedi-paths\0.4.10\package.tgz
+422 silly lockFile f7fbc70c-les-gedi-node-modules-gedi-paths tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gedi-paths
+423 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gedi-paths C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\f7fbc70c-les-gedi-node-modules-gedi-paths.lock
+424 silly lockFile 6917f544-he-gedi-paths-0-4-10-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gedi-paths\0.4.10\package.tgz
+425 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gedi-paths\0.4.10\package.tgz C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\6917f544-he-gedi-paths-0-4-10-package-tgz.lock
+426 verbose tar unpack C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\weakmap\0.0.6\package.tgz
+427 silly lockFile 7d646cd2-odules-gedi-node-modules-weakmap tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\weakmap
+428 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\weakmap C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\7d646cd2-odules-gedi-node-modules-weakmap.lock
+429 silly lockFile ef9a9a3b--cache-weakmap-0-0-6-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\weakmap\0.0.6\package.tgz
+430 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\weakmap\0.0.6\package.tgz C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\ef9a9a3b--cache-weakmap-0-0-6-package-tgz.lock
+431 verbose tar unpack C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\spec-js\0.0.1\package.tgz
+432 silly lockFile 23a91c23-odules-gedi-node-modules-spec-js tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\spec-js
+433 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\spec-js C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\23a91c23-odules-gedi-node-modules-spec-js.lock
+434 silly lockFile 5f09abdf--cache-spec-js-0-0-1-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\spec-js\0.0.1\package.tgz
+435 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\spec-js\0.0.1\package.tgz C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\5f09abdf--cache-spec-js-0-0-1-package-tgz.lock
+436 verbose tar unpack C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gel-js\0.6.1\package.tgz
+437 silly lockFile 0545c5d5-modules-gedi-node-modules-gel-js tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gel-js
+438 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gel-js C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\0545c5d5-modules-gedi-node-modules-gel-js.lock
+439 silly lockFile 4a477fcc-m-cache-gel-js-0-6-1-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gel-js\0.6.1\package.tgz
+440 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gel-js\0.6.1\package.tgz C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\4a477fcc-m-cache-gel-js-0-6-1-package-tgz.lock
+441 verbose tar unpack C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\lang-js\0.1.1\package.tgz
+442 silly lockFile 18c71d36-odules-gedi-node-modules-lang-js tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\lang-js
+443 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\lang-js C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\18c71d36-odules-gedi-node-modules-lang-js.lock
+444 silly lockFile 319c3f39--cache-lang-js-0-1-1-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\lang-js\0.1.1\package.tgz
+445 verbose lock tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\lang-js\0.1.1\package.tgz C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\319c3f39--cache-lang-js-0-1-1-package-tgz.lock
+446 silly gunzTarPerm modes [ '755', '644' ]
+447 silly gunzTarPerm modes [ '755', '644' ]
+448 silly gunzTarPerm modes [ '755', '644' ]
+449 silly gunzTarPerm modes [ '755', '644' ]
+450 silly gunzTarPerm modes [ '755', '644' ]
+451 silly gunzTarPerm extractEntry package.json
+452 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+453 silly gunzTarPerm extractEntry package.json
+454 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+455 silly gunzTarPerm extractEntry package.json
+456 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+457 silly gunzTarPerm extractEntry package.json
+458 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+459 silly gunzTarPerm extractEntry package.json
+460 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+461 silly gunzTarPerm extractEntry .npmignore
+462 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+463 silly gunzTarPerm extractEntry README.md
+464 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+465 silly gunzTarPerm extractEntry README.md
+466 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+467 silly gunzTarPerm extractEntry weakmap.js
+468 silly gunzTarPerm modified mode [ 'weakmap.js', 438, 420 ]
+469 silly gunzTarPerm extractEntry .npmignore
+470 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+471 silly gunzTarPerm extractEntry README.md
+472 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+473 silly gunzTarPerm extractEntry .npmignore
+474 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+475 silly gunzTarPerm extractEntry README.md
+476 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+477 silly gunzTarPerm extractEntry .npmignore
+478 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+479 silly gunzTarPerm extractEntry README.md
+480 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+481 silly gunzTarPerm extractEntry weakmap.min.js
+482 silly gunzTarPerm modified mode [ 'weakmap.min.js', 438, 420 ]
+483 silly gunzTarPerm extractEntry detectPath.js
+484 silly gunzTarPerm modified mode [ 'detectPath.js', 438, 420 ]
+485 silly gunzTarPerm extractEntry paths.js
+486 silly gunzTarPerm modified mode [ 'paths.js', 438, 420 ]
+487 silly gunzTarPerm extractEntry example.js
+488 silly gunzTarPerm modified mode [ 'example.js', 438, 420 ]
+489 silly gunzTarPerm extractEntry lang.js
+490 silly gunzTarPerm modified mode [ 'lang.js', 438, 420 ]
+491 silly gunzTarPerm extractEntry spec.js
+492 silly gunzTarPerm modified mode [ 'spec.js', 438, 420 ]
+493 silly gunzTarPerm extractEntry demo.browser.js
+494 silly gunzTarPerm modified mode [ 'demo.browser.js', 438, 420 ]
+495 silly gunzTarPerm extractEntry demo.js
+496 silly gunzTarPerm modified mode [ 'demo.js', 438, 420 ]
+497 silly gunzTarPerm extractEntry gel.js
+498 silly gunzTarPerm modified mode [ 'gel.js', 438, 420 ]
+499 silly gunzTarPerm extractEntry demo.html
+500 silly gunzTarPerm modified mode [ 'demo.html', 438, 420 ]
+501 silly gunzTarPerm extractEntry test/test.js
+502 silly gunzTarPerm modified mode [ 'test/test.js', 438, 420 ]
+503 silly gunzTarPerm extractEntry test/all.js
+504 silly gunzTarPerm modified mode [ 'test/all.js', 438, 420 ]
+505 silly gunzTarPerm extractEntry example.html
+506 silly gunzTarPerm modified mode [ 'example.html', 438, 420 ]
+507 silly gunzTarPerm extractEntry src/token.js
+508 silly gunzTarPerm modified mode [ 'src/token.js', 438, 420 ]
+509 silly gunzTarPerm extractEntry test/test.browser.js
+510 silly gunzTarPerm modified mode [ 'test/test.browser.js', 438, 420 ]
+511 silly lockFile 23a91c23-odules-gedi-node-modules-spec-js tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\spec-js
+512 silly lockFile 23a91c23-odules-gedi-node-modules-spec-js tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\spec-js
+513 silly lockFile 5f09abdf--cache-spec-js-0-0-1-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\spec-js\0.0.1\package.tgz
+514 silly lockFile 5f09abdf--cache-spec-js-0-0-1-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\spec-js\0.0.1\package.tgz
+515 silly gunzTarPerm extractEntry test/test.js
+516 silly gunzTarPerm modified mode [ 'test/test.js', 438, 420 ]
+517 silly gunzTarPerm extractEntry test/test.html
+518 silly gunzTarPerm modified mode [ 'test/test.html', 438, 420 ]
+519 silly lockFile 7d646cd2-odules-gedi-node-modules-weakmap tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\weakmap
+520 silly lockFile 7d646cd2-odules-gedi-node-modules-weakmap tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\weakmap
+521 silly lockFile ef9a9a3b--cache-weakmap-0-0-6-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\weakmap\0.0.6\package.tgz
+522 silly lockFile ef9a9a3b--cache-weakmap-0-0-6-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\weakmap\0.0.6\package.tgz
+523 info preinstall spec-js@0.0.1
+524 info preinstall weakmap@0.0.6
+525 verbose readDependencies using package.json deps
+526 verbose readDependencies using package.json deps
+527 verbose readDependencies using package.json deps
+528 silly resolved []
+529 verbose about to build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\spec-js
+530 info build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\spec-js
+531 verbose linkStuff [ true,
+531 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules',
+531 verbose linkStuff   false,
+531 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules\\jspect\\node_modules\\gedi\\node_modules' ]
+532 info linkStuff spec-js@0.0.1
+533 verbose linkBins spec-js@0.0.1
+534 verbose linkMans spec-js@0.0.1
+535 verbose rebuildBundles spec-js@0.0.1
+536 verbose readDependencies using package.json deps
+537 silly resolved []
+538 verbose about to build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\weakmap
+539 info build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\weakmap
+540 verbose linkStuff [ true,
+540 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules',
+540 verbose linkStuff   false,
+540 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules\\jspect\\node_modules\\gedi\\node_modules' ]
+541 info linkStuff weakmap@0.0.6
+542 verbose linkBins weakmap@0.0.6
+543 verbose linkMans weakmap@0.0.6
+544 verbose rebuildBundles weakmap@0.0.6
+545 info install spec-js@0.0.1
+546 info install weakmap@0.0.6
+547 info postinstall spec-js@0.0.1
+548 info postinstall weakmap@0.0.6
+549 silly lockFile f7fbc70c-les-gedi-node-modules-gedi-paths tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gedi-paths
+550 silly lockFile f7fbc70c-les-gedi-node-modules-gedi-paths tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gedi-paths
+551 silly lockFile 6917f544-he-gedi-paths-0-4-10-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gedi-paths\0.4.10\package.tgz
+552 silly lockFile 6917f544-he-gedi-paths-0-4-10-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gedi-paths\0.4.10\package.tgz
+553 info preinstall gedi-paths@0.4.10
+554 verbose readDependencies using package.json deps
+555 verbose readDependencies using package.json deps
+556 silly resolved []
+557 verbose about to build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gedi-paths
+558 info build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gedi-paths
+559 verbose linkStuff [ true,
+559 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules',
+559 verbose linkStuff   false,
+559 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules\\jspect\\node_modules\\gedi\\node_modules' ]
+560 info linkStuff gedi-paths@0.4.10
+561 verbose linkBins gedi-paths@0.4.10
+562 verbose linkMans gedi-paths@0.4.10
+563 verbose rebuildBundles gedi-paths@0.4.10
+564 info install gedi-paths@0.4.10
+565 info postinstall gedi-paths@0.4.10
+566 silly lockFile 18c71d36-odules-gedi-node-modules-lang-js tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\lang-js
+567 silly lockFile 18c71d36-odules-gedi-node-modules-lang-js tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\lang-js
+568 silly lockFile 319c3f39--cache-lang-js-0-1-1-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\lang-js\0.1.1\package.tgz
+569 silly lockFile 319c3f39--cache-lang-js-0-1-1-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\lang-js\0.1.1\package.tgz
+570 info preinstall lang-js@0.1.1
+571 verbose readDependencies using package.json deps
+572 verbose readDependencies using package.json deps
+573 silly resolved []
+574 verbose about to build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\lang-js
+575 info build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\lang-js
+576 verbose linkStuff [ true,
+576 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules',
+576 verbose linkStuff   false,
+576 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules\\jspect\\node_modules\\gedi\\node_modules' ]
+577 info linkStuff lang-js@0.1.1
+578 verbose linkBins lang-js@0.1.1
+579 verbose linkMans lang-js@0.1.1
+580 verbose rebuildBundles lang-js@0.1.1
+581 info install lang-js@0.1.1
+582 info postinstall lang-js@0.1.1
+583 silly lockFile 0545c5d5-modules-gedi-node-modules-gel-js tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gel-js
+584 silly lockFile 0545c5d5-modules-gedi-node-modules-gel-js tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gel-js
+585 silly lockFile 4a477fcc-m-cache-gel-js-0-6-1-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gel-js\0.6.1\package.tgz
+586 silly lockFile 4a477fcc-m-cache-gel-js-0-6-1-package-tgz tar://C:\Users\Kory.korys-laptop\AppData\Roaming\npm-cache\gel-js\0.6.1\package.tgz
+587 info preinstall gel-js@0.6.1
+588 verbose readDependencies using package.json deps
+589 verbose readDependencies using package.json deps
+590 silly resolved []
+591 verbose about to build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gel-js
+592 info build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi\node_modules\gel-js
+593 verbose linkStuff [ true,
+593 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules',
+593 verbose linkStuff   false,
+593 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules\\jspect\\node_modules\\gedi\\node_modules' ]
+594 info linkStuff gel-js@0.6.1
+595 verbose linkBins gel-js@0.6.1
+596 verbose linkMans gel-js@0.6.1
+597 verbose rebuildBundles gel-js@0.6.1
+598 info install gel-js@0.6.1
+599 info postinstall gel-js@0.6.1
+600 verbose about to build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi
+601 info build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\node_modules\gedi
+602 verbose linkStuff [ true,
+602 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules',
+602 verbose linkStuff   false,
+602 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules\\jspect\\node_modules' ]
+603 info linkStuff gedi@0.12.1
+604 verbose linkBins gedi@0.12.1
+605 verbose linkMans gedi@0.12.1
+606 verbose rebuildBundles gedi@0.12.1
+607 verbose rebuildBundles [ 'gedi-paths', 'gel-js', 'lang-js', 'spec-js', 'weakmap' ]
+608 info install gedi@0.12.1
+609 info postinstall gedi@0.12.1
+610 verbose about to build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect
+611 info build C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect
+612 verbose linkStuff [ true,
+612 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules',
+612 verbose linkStuff   true,
+612 verbose linkStuff   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm\\node_modules' ]
+613 info linkStuff jspect@0.0.2
+614 verbose linkBins jspect@0.0.2
+615 verbose link bins [ { browserifyer: 'index.js' },
+615 verbose link bins   'C:\\Users\\Kory.korys-laptop\\AppData\\Roaming\\npm',
+615 verbose link bins   true ]
+616 verbose linkMans jspect@0.0.2
+617 verbose rebuildBundles jspect@0.0.2
+618 verbose rebuildBundles [ 'commander', 'gedi' ]
+619 info C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect unbuild
+620 info preuninstall jspect@0.0.2
+621 info uninstall jspect@0.0.2
+622 verbose true,C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules,C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules unbuild jspect@0.0.2
+623 verbose C:\Users\Kory.korys-laptop\AppData\Roaming\npm,[object Object] binRoot
+624 info postuninstall jspect@0.0.2
+625 error Error: ENOENT, chmod 'C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\index.js'
+626 error If you need help, you may report this log at:
+626 error     <http://github.com/isaacs/npm/issues>
+626 error or email it to:
+626 error     <npm-@googlegroups.com>
+627 error System Windows_NT 6.2.9200
+628 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "up" "jspect" "-g"
+629 error cwd C:\dev\github\jspect
+630 error node -v v0.10.13
+631 error npm -v 1.3.2
+632 error path C:\Users\Kory.korys-laptop\AppData\Roaming\npm\node_modules\jspect\index.js
+633 error code ENOENT
+634 error errno 34
+635 verbose exit [ 34, true ]

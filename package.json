@@ -15,6 +15,6 @@
   "license": "BSD",
   "preferGlobal": "true",
   "bin": {
-    "browserifyer": "index.js"
+    "jspect": "jspect.js"
   }
 }
