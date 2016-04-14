@@ -1,6 +1,6 @@
 {
   "name": "jspect",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "## installation",
   "main": "jspect.js",
   "dependencies": {
