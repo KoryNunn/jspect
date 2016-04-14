@@ -1,7 +1,7 @@
 {
   "name": "jspect",
   "version": "0.0.7",
-  "description": "",
+  "description": "## installation",
   "main": "jspect.js",
   "dependencies": {
     "commander": "~2.1.0",
@@ -14,5 +14,16 @@
   "author": "Kory Nunn",
   "license": "BSD",
   "preferGlobal": "true",
-  "bin": "./jspect.js"
+  "bin": {
+    "jspect": "./jspect.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoryNunn/jspect.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/KoryNunn/jspect/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/jspect#readme"
 }
